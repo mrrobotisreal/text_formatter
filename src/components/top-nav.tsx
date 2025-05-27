@@ -38,7 +38,7 @@ const TopNav: React.FC = () => {
             alt="WinApps Logo"
             className="h-12 w-12"
           />
-          <span className="text-xl font-semibold text-foreground" style={{ fontFamily: "ubuntu" }}>WinApps</span>
+          <span className="text-xl font-semibold text-foreground hidden md:block" style={{ fontFamily: "ubuntu" }}>WinApps</span>
         </a>
 
         <div className="flex items-center space-x-3">
@@ -47,7 +47,7 @@ const TopNav: React.FC = () => {
             alt="Text Formatter Icon"
             className="h-10 w-10 rounded-sm"
           />
-          <h1 className="text-3xl font-bold text-foreground" style={{ fontFamily: "marck" }}>Text Formatter</h1>
+          <h1 className="text-3xl font-bold text-foreground hidden md:block" style={{ fontFamily: "marck" }}>Text Formatter</h1>
         </div>
 
         <div className="flex items-center space-x-2">
